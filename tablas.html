@@ -1,0 +1,58 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Tablas</title>
+</head>
+<body>
+        <div class="img-head" style="height: 150px; width:100%"></div>
+    <header class="main-title">&lttablas&gt</header>
+    <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contenido.html">Contenidos</a></li>
+                <li><a href="#">Buscadores</a>
+                    <ul class="dropmenu">
+                        <li><a href="http://www.bing.com/" target="_blank">Bing</a></li>
+                        <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Redes sociales</a>
+                    <ul class="dropmenu">
+                        <li><a href="http://facebook.com" target="_blank">Facebook</a></li>
+                        <li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Tablas</a>
+                    <ul class="dropmenu">
+                        <li><a href="tablas.html">Tablas de multiplicar</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h2>&ltelegir numero></h2>
+            <select name="num" id="sel">
+                <option onclick="number()" value="1" selected>uno</option>
+                <option onclick="number()" value="2">dos</option>
+                <option onclick="number()" value="3">tres</option>
+                <option onclick="number()" value="4">cuatro</option>
+                <option onclick="number()" value="5">cinco</option>
+                <option onclick="number()" value="6">seis</option>
+                <option onclick="number()" value="7">siete</option>
+                <option onclick="number()" value="8">ocho</option>
+                <option onclick="number()" value="9">nueve</option>
+                <option onclick="number()" value="10">diez</option>
+            </select>
+
+            <table id="m-table">
+                
+            </table>
+            <script src="script.js"></script>
+        </div>
+</body>
+</html>

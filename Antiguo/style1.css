@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.img-head{
+	background: url(skeleton.gif);
+	background-size: cover;
+}
+
+
+body{
+	background-image: url(Fondo.jpg);
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color:#fff;
+}
+
+
+#contenedor{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+
+.main-title{	
+	color: #fff;
+	font-weight: bold;
+	font-size: 4em;
+	padding-top: 10px;
+	border-top: 2px #fff solid;
+}
+
+
+.navbar{
+}
+
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	border-bottom: 2px #fff solid;  /*Esta generando un margen blanco linea*/
+    border-top: 2px #fff solid;
+    border-left: 2px #fff solid;
+    border-right: 2px #fff solid;
+    box-sizing: border-box; /*hace que se mantenga estatico la forma del rectangulo*/
+}
+
+
+nav ul{ 
+	float: left;
+}
+
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+
+
+nav ul li a{
+	color:#fff;
+	display: block;
+	text-decoration: none;
+	padding: 22px 14px;
+	font-size: 14px;
+}
+
+
+
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #000;
+	border: 2px #fff solid;
+	box-sizing: border-box;
+}
+
+
+nav ul li:hover ul{
+	display: block;
+}
+
+
+nav ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	border-radius: 20px;
+}
+
+
+
+nav ul li ul li{
+	width: 180px;
+	border-radius: 4px;
+}
+
+
+
+header{
+	background-color: #214241;
+	font-family: 'Lobster', cursive;
+	}
+
